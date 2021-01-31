@@ -19,7 +19,7 @@ class RegistrationUtilTest {
     @Test
     fun `valid username and correctly repeated password returns true`() {
         val result = RegistrationUtil.validateRegistrationInput(
-            "Philipp",
+            "Thanakorn",
             "123",
             "123"
         )
